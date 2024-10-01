@@ -1,0 +1,49 @@
+.img_con {
+    width: 2%;
+    height: 5%;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+    padding: 10px;
+  }
+
+.grid-container > div {
+    text-align: justify;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.video_s {
+border-radius: 30px;
+padding: 20px;
+}
+.video_size {
+    border-radius: 20px;
+    padding: 10px;
+    width: 280px;
+    height: 158px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.video_desc {
+    color: black;
+}
+
+.img_login {
+    border-radius: 50%;
+    width: 5%;
+    height: 15%;
+  }
+
+
